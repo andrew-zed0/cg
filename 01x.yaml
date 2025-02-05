@@ -1,0 +1,10 @@
+network:
+    version: 2
+    renderer: NetworkManager
+    ethernets:
+        ens18:
+            addresses:
+                -192.168.team.2/24
+            routes:
+                -to:default
+                via:192.168.team.1
